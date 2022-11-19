@@ -1,3 +1,4 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 import java.time.LocalDate;
@@ -14,8 +15,9 @@ public class Main {
         curso2.setDescricao("descrição curso javascript");
         curso2.setCargaHoraria(4);
 
-        Mentoria mentoria = new Mentoria();
+        Conteudo conteudo = new Curso();
 
+        Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria de java");
         mentoria.setDescricao("descrição mentoria java");
         mentoria.setData(LocalDate.now());
